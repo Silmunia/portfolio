@@ -35,3 +35,10 @@
     height: 83px;
     font-size: 3.6rem;
 }
+
+.intro__project-screenshot {
+    border: solid 4px black;
+    box-sizing: border-box;
+    width: 789px;
+    height: 444px;
+}
