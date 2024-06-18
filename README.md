@@ -1,27 +1,57 @@
-# Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+<a name="readme-top"></a>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-## Code scaffolding
+<h3 align="center">Portfolio Website</h3>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  <p align="center">
+    A personal website made with Angular to contain a portfolio highlighting some previous projects. 
+    <br />
+    <br />
+    <a href="https://silmunia.netlify.app/">View Demo</a>
+  </p>
+</div>
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Running end-to-end tests
+<img src="./src/assets/PortfolioScreenshot.png" alt="Portfolio Website Screenshot">
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+A personal website to highlight previous projects and provide some options of communication. While this project was developed for professional purposes, it was also a study on the basics of Angular routing and how to make it work as expected when the website is deployed.
 
-## Further help
+### Built With
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[![Angular][Angular.io]][Angular-url]
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [Best Readme Template](https://github.com/othneildrew/Best-README-Template): provider of the template used to write this project's Readme document
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
