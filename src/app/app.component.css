@@ -1,41 +1,5 @@
 @import url('../styles.css');
 
-.intro {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 200px;
-
-    width: 1475px;
-    height: 444px;
-    margin: auto;
-}
-
-.intro__text-container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-
-    width: 485px;
-}
-
-.title-container {
-    line-height: 1.2;
-    font-size: 4.8rem;
-}
-
-.intro__text-container__activity {
-    font-size: 3.6rem;
-    line-height: 1.2;
-}
-
-.intro__text-container__info-button {
-    width: 335px;
-    height: 83px;
-    font-size: 3.6rem;
-}
-
 .footer {
     display: flex;
     align-items: center;

@@ -15,3 +15,10 @@ app-root {
     display: flex;
     flex-direction: column;
 }
+
+app-intro-page {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+}
