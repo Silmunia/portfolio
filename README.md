@@ -12,7 +12,7 @@
     A personal website made with Angular to contain a portfolio highlighting some previous projects. 
     <br />
     <br />
-    <a href="https://silmunia.netlify.app/">View Demo</a>
+    <a href="https://silmunia.netlify.app/" target="_blank">View Demo</a>
   </p>
 </div>
 
