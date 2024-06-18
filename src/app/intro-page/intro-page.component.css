@@ -34,4 +34,16 @@
     width: 335px;
     height: 83px;
     font-size: 3.6rem;
+
+    border: solid 4px black;
+    box-sizing: border-box;
+    background-color: white;
+    cursor: pointer;
+}
+
+.intro__project-screenshot {
+    border: solid 4px black;
+    box-sizing: border-box;
+    width: 789px;
+    height: 444px;
 }
