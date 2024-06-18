@@ -1,0 +1,65 @@
+@import url('../app.component.css');
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+
+    width: 1475px;
+}
+
+.projects__title  {
+    font-size: 4.8rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+
+.project-container__project {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    width: 1370px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.project-info__title {
+    font-size: 3.6rem;
+}
+
+.project-info__description {
+    font-size: 3rem;
+    line-height: 1.2;
+    width: 494px;
+}
+
+.project-link__button {
+    font-size: 3rem;
+    border: solid 4px black;
+    background-color: white;
+
+    cursor: pointer;
+
+    width: 276px;
+    height: 68px;
+}
+
+.project-container__project__screenshot {
+    border: solid 4px black;
+    box-sizing: border-box;
+
+    width: 685px;
+    height: 387px;
+}
