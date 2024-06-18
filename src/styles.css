@@ -16,7 +16,7 @@ app-root {
     flex-direction: column;
 }
 
-app-intro-page {
+app-intro-page, app-contact-page {
     flex: 1;
 
     display: flex;
