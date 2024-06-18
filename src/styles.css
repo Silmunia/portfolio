@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('./reset.css');
+
+:root {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+app-root {
+    display: flex;
+    flex-direction: column;
+}
+
+app-intro-page, app-contact-page, app-project-page {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 120px;
+    margin-bottom: 70px;
+}

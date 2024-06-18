@@ -1,0 +1,37 @@
+@import url('../app.component.css');
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+
+    width: 1475px;
+}
+
+.contact__title  {
+    font-size: 4.8rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.contact-container__element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    width: fit-content;
+
+    font-size: 3.6rem;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-container__element__icon {
+    width: 100px;
+    height: 100px;
+}
