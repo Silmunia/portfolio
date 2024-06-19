@@ -39,7 +39,7 @@
     justify-content: center;
     font-size: clamp(1.4rem, 1.6vw, 3rem);
     width: 100vw;
-    height: clamp(24px, 4.5vw, 84px);
+    height: clamp(42px, 4.5vw, 84px);
     box-sizing: border-box;
     border-top: 4px solid black;
 }
