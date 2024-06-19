@@ -9,7 +9,6 @@
     gap: clamp(40px, 10.5vw, 200px);
 
     width: clamp(255px, 77vw, 1475px);
-    margin: auto;
 }
 
 .intro__text-container {
@@ -46,4 +45,12 @@
     box-sizing: border-box;
     width: clamp(255px, 41vw, 789px);
     aspect-ratio: 1.77;
+}
+
+@media only screen and (max-width: 1000px) {
+    .intro {
+        flex-direction: column;
+        gap: 36px;
+        height: 450px;
+    }
 }
