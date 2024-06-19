@@ -13,14 +13,14 @@
     width: 100vw;
     height: clamp(84px, 6.66vw, 128px);
     box-sizing: border-box;
-    border-bottom: 4px solid black;
     padding: 0px clamp(20px, 12vw, 220px);
-    background-color: white;
+    background-color: var(--portfolio-blue);
 }
 
 .nav-bar__title {
     font-family: "Montserrat";
     font-size: clamp(2.2rem, 2.5vw, 4.8rem);
+    color: var(--portfolio-white);
 }
 
 .nav-bar__links {
@@ -31,7 +31,7 @@
 .nav-bar__links__option {
     font-family: "Barlow Condensed";
     font-size: clamp(2rem, 2.5vw, 4rem);
-    color: black;
+    color: var(--portfolio-white);
     text-decoration: none;
 }
 
@@ -44,7 +44,8 @@
     width: 100vw;
     height: clamp(42px, 4.5vw, 84px);
     box-sizing: border-box;
-    border-top: 4px solid black;
+    background-color: var(--portfolio-blue);
+    color: var(--portfolio-white);
 }
 
 @media only screen and (max-width: 640px) {
