@@ -4,17 +4,20 @@
 @font-face {
     font-family: "Barlow Condensed";
     src: url("./assets/fonts/BarlowCondensed-Regular.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Barlow Condensed";
     src: url("./assets/fonts/BarlowCondensed-SemiBold.ttf");
     font-weight: bold;
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Montserrat";
     src: url("./assets/fonts/Montserrat-Regular.ttf");
+    font-display: swap;
 }
 
 :root {
