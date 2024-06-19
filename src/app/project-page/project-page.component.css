@@ -76,7 +76,7 @@
     box-sizing: border-box;
 
     width: clamp(255px, 35.7vw, 685px);
-    height: calc(clamp(255px, 35.7vw, 685px) / 1.77);
+    height: calc(clamp(255px, 35.7vw, 685px) / 1.78);
     border-radius: 10px;
 }
 
