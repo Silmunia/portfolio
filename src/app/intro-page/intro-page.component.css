@@ -44,6 +44,6 @@
 .intro__project-screenshot {
     border: solid 4px black;
     box-sizing: border-box;
-    width: clamp(255px, 42vw, 789px);
-    height: clamp(144px, 42vw, 444px);
+    width: clamp(255px, 41vw, 789px);
+    aspect-ratio: 1.77;
 }

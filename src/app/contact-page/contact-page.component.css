@@ -32,5 +32,5 @@
 
 .contact-container__element__icon {
     width: clamp(70px, 5.5vw, 100px);
-    height: clamp(70px, 5.5vw, 100px);
+    aspect-ratio: 1.0;
 }

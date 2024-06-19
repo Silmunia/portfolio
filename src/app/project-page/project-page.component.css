@@ -63,5 +63,5 @@
     box-sizing: border-box;
 
     width: clamp(255px, 35.7vw, 685px);
-    height: clamp(144px, 35.7vw, 387px);
+    aspect-ratio: 1.77;
 }
