@@ -31,7 +31,7 @@
 .nav-bar__links__option {
     font-family: "Barlow Condensed";
     font-size: clamp(2rem, 2.5vw, 4rem);
-    color: var(--portfolio-white);
+    color: var(--portfolio-yellow);
     text-decoration: none;
 }
 
