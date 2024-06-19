@@ -34,3 +34,9 @@
     width: clamp(70px, 5.5vw, 100px);
     aspect-ratio: 1.0;
 }
+
+@media only screen and (max-width: 640px) {
+    .contact {
+        align-items: center;
+    }
+}
