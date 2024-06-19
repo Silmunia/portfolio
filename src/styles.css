@@ -14,14 +14,13 @@ body {
 app-root {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 app-intro-page, app-contact-page, app-project-page {
-    flex: 1;
-
     display: flex;
+    flex: 1;
     justify-content: center;
-
-    margin-top: clamp(40px, 6.25vw, 120px);
-    margin-bottom: clamp(20px, 6.25vw, 70px);
+    
+    margin: clamp(20px, 6.25vw, 70px) auto;
 }
