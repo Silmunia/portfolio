@@ -19,12 +19,12 @@
 }
 
 .nav-bar__title {
-    font-family: "Barlow Condensed";
+    font-family: "Montserrat";
     font-size: clamp(2rem, 2.5vw, 4.8rem);
 }
 
 .nav-bar__links {
-    font-family: "Montserrat";
+    font-family: "Barlow Condensed";
     display: flex;
     gap: 30px;
 }
@@ -36,7 +36,7 @@
 }
 
 .footer {
-    font-family: "Barlow Condensed";
+    font-family: "Montserrat";
     display: flex;
     align-items: center;
     justify-content: center;
