@@ -36,7 +36,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./src/assets/PortfolioScreenshot.png" alt="Portfolio Website Screenshot">
+<img src="./src/assets/PortfolioScreenshot.webp" alt="Portfolio Website Screenshot">
 
 A personal website to highlight previous projects and provide some options of communication. While this project was developed for professional purposes, it was also a study on the basics of Angular routing and how to make it work as expected when the website is deployed.
 
