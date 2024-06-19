@@ -11,7 +11,7 @@
     justify-content: space-between;
 
     width: 100vw;
-    height: 128px;
+    height: clamp(84px, 6.66vw, 128px);
     box-sizing: border-box;
     border-bottom: 4px solid black;
     padding: 0px clamp(20px, 12vw, 220px);
