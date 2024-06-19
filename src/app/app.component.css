@@ -19,7 +19,8 @@
 }
 
 .nav-bar__title {
-    font-size: clamp(2rem, 2.5vw, 4.8rem);
+    font-family: "Montserrat";
+    font-size: clamp(2.2rem, 2.5vw, 4.8rem);
 }
 
 .nav-bar__links {
@@ -28,12 +29,14 @@
 }
 
 .nav-bar__links__option {
-    font-size: clamp(1.8rem, 2.5vw, 3.6rem);
+    font-family: "Barlow Condensed";
+    font-size: clamp(2rem, 2.5vw, 4rem);
     color: black;
     text-decoration: none;
 }
 
 .footer {
+    font-family: "Montserrat";
     display: flex;
     align-items: center;
     justify-content: center;
