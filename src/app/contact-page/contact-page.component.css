@@ -3,7 +3,6 @@
 .contact {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: clamp(30px, 3.8vw, 70px);
 
     width: clamp(255px, 77vw, 1475px);
