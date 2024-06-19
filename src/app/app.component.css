@@ -20,17 +20,17 @@
 
 .nav-bar__title {
     font-family: "Montserrat";
-    font-size: clamp(2rem, 2.5vw, 4.8rem);
+    font-size: clamp(2.2rem, 2.5vw, 4.8rem);
 }
 
 .nav-bar__links {
-    font-family: "Barlow Condensed";
     display: flex;
     gap: 30px;
 }
 
 .nav-bar__links__option {
-    font-size: clamp(1.8rem, 2.5vw, 3.6rem);
+    font-family: "Barlow Condensed";
+    font-size: clamp(2rem, 2.5vw, 4rem);
     color: black;
     text-decoration: none;
 }

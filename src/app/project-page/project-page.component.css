@@ -45,14 +45,14 @@
 
 .project-info__description {
     font-family: "Barlow Condensed";
-    font-size: clamp(1.6rem, 2.5vw, 3rem);
+    font-size: clamp(2rem, 2.5vw, 3.4rem);
     line-height: 1.2;
     width: clamp(255px, 25.8vw, 494px);
 }
 
 .project-link__button {
     font-family: "Barlow Condensed";
-    font-size: clamp(1.6rem, 2.5vw, 3rem);
+    font-size: clamp(2rem, 2.5vw, 3.4rem);
     
     border: solid 4px black;
     background-color: white;
