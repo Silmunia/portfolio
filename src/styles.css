@@ -30,6 +30,8 @@
 body {
     display: flex;
     min-height: 100vh;
+    background-color: var(--portfolio-white);
+    color: var(--portfolio-black);
 }
 
 app-root {

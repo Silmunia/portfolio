@@ -31,7 +31,7 @@
 }
 
 :any-link {
-    color: black;
+    color: var(--portfolio-black);
     text-decoration: none;
 }
 
