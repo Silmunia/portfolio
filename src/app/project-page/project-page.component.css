@@ -54,8 +54,9 @@
     font-family: "Barlow Condensed";
     font-size: clamp(2rem, 2.5vw, 3.4rem);
     
-    border: solid 4px black;
-    background-color: white;
+    border: none;
+    color: var(--portfolio-white);
+    background-color: var(--portfolio-metal);
 
     cursor: pointer;
 
@@ -64,7 +65,7 @@
 }
 
 .project-container__project__screenshot {
-    border: solid 4px black;
+    border: solid 4px var(--portfolio-blue);
     box-sizing: border-box;
 
     width: clamp(255px, 35.7vw, 685px);
