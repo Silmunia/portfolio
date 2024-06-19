@@ -20,11 +20,20 @@
 :root {
     font-size: 62.5%;
     font-family: sans-serif;
+
+    --portfolio-black: #333333;
+    --portfolio-white: #fafafa;
+    --portfolio-blue: #2f4595;
+    --portfolio-yellow: #f6df5b;
+    --portfolio-light-blue: #7ddbfa;
+    --portfolio-metal: #305B73;
 }
 
 body {
     display: flex;
     min-height: 100vh;
+    background-color: var(--portfolio-white);
+    color: var(--portfolio-black);
 }
 
 app-root {

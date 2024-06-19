@@ -36,17 +36,27 @@
     width: clamp(255px, 17.45vw, 335px);
     height: clamp(48px, 4.3vw, 83px);
 
-    border: solid 4px black;
     box-sizing: border-box;
-    background-color: white;
+    background-color: var(--portfolio-metal);
+    color: var(--portfolio-white);
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 var(--portfolio-black);
+    border-bottom: 4px solid #26485a;
+}
+
+.intro__text-container__info-button:active {
+    box-shadow: none;
+    border-bottom: none;
 }
 
 .intro__project-screenshot {
-    border: solid 4px black;
+    border: solid 4px var(--portfolio-blue);
     box-sizing: border-box;
     width: clamp(255px, 41vw, 789px);
-    height: calc(clamp(255px, 41vw, 789px) / 1.77);
+    height: calc(clamp(255px, 41vw, 789px) / 1.78);
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 1000px) {

@@ -54,21 +54,30 @@
     font-family: "Barlow Condensed";
     font-size: clamp(2rem, 2.5vw, 3.4rem);
     
-    border: solid 4px black;
-    background-color: white;
-
+    border: none;
+    color: var(--portfolio-white);
+    background-color: var(--portfolio-metal);
+    border-radius: 10px;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 var(--portfolio-black);
+    border-bottom: 4px solid #26485a;
 
     width: clamp(255px, 14.4vw, 276px);
     height: clamp(44px, 3.5vw, 68px);
 }
 
+.project-link__button:active {
+    box-shadow: none;
+    border-bottom: none;
+}
+
 .project-container__project__screenshot {
-    border: solid 4px black;
+    border: solid 4px var(--portfolio-blue);
     box-sizing: border-box;
 
     width: clamp(255px, 35.7vw, 685px);
-    height: calc(clamp(255px, 35.7vw, 685px) / 1.77);
+    height: calc(clamp(255px, 35.7vw, 685px) / 1.78);
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 860px) {
